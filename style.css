@@ -1,0 +1,93 @@
+body {
+  background-attachment: fixed;
+  background-image: url(grass.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul.navigation {
+  background-color: white;
+  display: block;
+  list-style: none;
+  margin-top: 0;
+  width: 100%;
+  height: 35px;
+}
+
+ul.navigation li {
+  display: inline-block;
+  float: left;
+}
+
+ul.navigation a {
+  color: black;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+ul.navigation a:hover {
+  background-color: black;
+  color: white;
+}
+
+
+#red-herring {
+    color: red;
+}
+
+#purple {
+    color: purple;
+}
+
+.navigation {
+    list-style: none;
+}
+
+.navigation-link {
+    font-size: large;
+}
+
+p {	
+background-color: aqua;
+opacity: 0.3;
+	font-family: "Verdana", sans-serif;
+	font-size: 14px;
+	color: #black;
+}
+
+
+#super-important{
+	font-size: 300%;
+
+}
+
+.same-color{
+	background-color: #5e9c19;
+	margin-left:auto;
+	margin-right: 5px;
+	width: 300px;
+}
+
+
+#large-border{
+	padding: 3em 2em 3em 2em;
+	border: 5px dashed #ff0000;
+	margin: 24px 100px 60px 24px;
+}
+
+
+
+table {border: 1px solid #ff0000;
+}
+
+#center-title {
+	margin: auto;
+	width: 400px;
+	text-align: center;
+}
+
+p em {
+	color: yellow;
+}
